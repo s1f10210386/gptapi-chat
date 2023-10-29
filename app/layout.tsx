@@ -3,9 +3,9 @@ import Header from "./Header";
 import Main from "./Main";
 
 export const metadata = {
-  title: "ChatGPTとおしゃべり🐒",
+  title: "ChatGPTにカウンセリング",
   description:
-    "ChatGPT APIを使ったチャットアプリです。一緒におしゃべりが出来ます。",
+    "ChatGPT APIを使ったカウンセリングアプリです。一緒におしゃべりが出来ます。",
 };
 
 export default function RootLayout({
