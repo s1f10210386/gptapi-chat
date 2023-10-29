@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       setIsSubmitting(true);
       setChats((prev) => [...prev, message]);
 
-      const response = await fetch("/api/messages", {
+      const response = await fetch("https://gptapi-chat-beige.vercel.app/api/messages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
